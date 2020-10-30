@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AccelerometerSensorApp</string>
+    <string name="sample_btn_txt">Sample</string>
+    <string name="with_graph_btn_txt">With Graph</string>
+</resources>
