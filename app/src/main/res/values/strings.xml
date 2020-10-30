@@ -2,4 +2,7 @@
     <string name="app_name">AccelerometerSensorApp</string>
     <string name="sample_btn_txt">Sample</string>
     <string name="with_graph_btn_txt">With Graph</string>
+    <string name="value_of_x">Value Of X</string>
+    <string name="value_of_y">Value Of Y</string>
+    <string name="value_of_z">Value Of Z</string>
 </resources>

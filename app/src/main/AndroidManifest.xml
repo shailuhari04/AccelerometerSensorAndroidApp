@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AccelerometerSensorApp">
-        <activity android:name=".withgraph.WithGraphActivity"></activity>
+        <activity android:name=".withgraph.WithGraphActivity" />
         <activity android:name=".simple.SimpleActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
