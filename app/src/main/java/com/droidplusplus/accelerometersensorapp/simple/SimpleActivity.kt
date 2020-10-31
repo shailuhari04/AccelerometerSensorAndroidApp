@@ -40,17 +40,22 @@ class SimpleActivity : AppCompatActivity(), SensorEventListener {
         val xVal = event.values[0]
         val yVal = event.values[1]
         val zVal = event.values[2]
-        valueOfXTV.text = "Value Of X Axis: $xVal"
-        valueOfYTV.text = "Value Of Y Axis: $yVal"
-        valueOfZTV.text = "Value Of Z Axis: $zVal"
+        valueOfXTV.text = "${getString(R.string.value_of_x)} $xVal"
+        valueOfYTV.text = "${getString(R.string.value_of_y)} $yVal"
+        valueOfZTV.text = "${getString(R.string.value_of_z)} $zVal"
 
         //Calculation
         val accelerationSquareRoot =
             (xVal * xVal + yVal * yVal + zVal * zVal) / (SensorManager.GRAVITY_EARTH * SensorManager.GRAVITY_EARTH)
 
         if (accelerationSquareRoot >= 3) {
-            Toast.makeText(this@SimpleActivity, "Device was shuffled", Toast.LENGTH_SHORT).show()
+            Toast.makeText(
+                this@SimpleActivity,
+                getString(R.string.device_shuffled_msg),
+                Toast.LENGTH_SHORT
+            ).show()
         }
+        valueOfGForceTV.text = "${getString(R.string.value_of_gforce)} $accelerationSquareRoot"
     }
 
     override fun onResume() {

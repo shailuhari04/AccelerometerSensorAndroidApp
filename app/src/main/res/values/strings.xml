@@ -2,7 +2,9 @@
     <string name="app_name">AccelerometerSensorApp</string>
     <string name="sample_btn_txt">Sample</string>
     <string name="with_graph_btn_txt">With Graph</string>
-    <string name="value_of_x">Value Of X</string>
-    <string name="value_of_y">Value Of Y</string>
-    <string name="value_of_z">Value Of Z</string>
+    <string name="value_of_x">Value Of X Axis:</string>
+    <string name="value_of_y">Value Of Y Axis:</string>
+    <string name="value_of_z">Value Of Z Axis:</string>
+    <string name="value_of_gforce">Value Of G-Force</string>
+    <string name="device_shuffled_msg">Device was shuffled</string>
 </resources>
