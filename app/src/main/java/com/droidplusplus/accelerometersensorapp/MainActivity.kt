@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.droidplusplus.accelerometersensorapp.simple.SimpleActivity
+import com.droidplusplus.accelerometersensorapp.withcalculation.WithCalculationActivity
 import com.droidplusplus.accelerometersensorapp.withgraph.WithGraphActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -23,6 +24,16 @@ class MainActivity : AppCompatActivity() {
                 Intent(
                     this@MainActivity,
                     SimpleActivity::class.java
+                )
+            )
+        }
+
+        //with Calculation btn click action handle
+        withCalculationBtn.setOnClickListener {
+            startActivity(
+                Intent(
+                    this@MainActivity,
+                    WithCalculationActivity::class.java
                 )
             )
         }

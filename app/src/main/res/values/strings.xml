@@ -2,9 +2,16 @@
     <string name="app_name">AccelerometerSensorApp</string>
     <string name="sample_btn_txt">Sample</string>
     <string name="with_graph_btn_txt">With Graph</string>
+    <string name="with_calculation_btn_txt">With Calculation</string>
+    <string name="start_btn_txt">Start</string>
+    <string name="clear_btn_txt">Clear</string>
+    <string name="stop_btn_txt">Stop</string>
     <string name="value_of_x">Value Of X Axis:</string>
     <string name="value_of_y">Value Of Y Axis:</string>
     <string name="value_of_z">Value Of Z Axis:</string>
     <string name="value_of_gforce">Value Of G-Force</string>
     <string name="device_shuffled_msg">Device was shuffled</string>
+    <string name="value_of_speed_meter_per_sec">Speed Meter Per Second</string>
+    <string name="value_of_speed_kilometer_per_sec">Speed KiloMeter Per Second</string>
+    <string name="acceleration_data">Acceleration Data</string>
 </resources>
